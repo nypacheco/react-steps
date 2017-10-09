@@ -35,6 +35,18 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: 'babel'
+            },
+            {
+                test: /\.css$/,
+                loaders: ['style', 'css']
+            },
+            { 
+                test: /\.(png|jpe?g|gif|svg.*)$/, 
+                loader: 'file'
+            },
+            {
+                test: /\.(ttf.*|eot.*|woff.*|ogg|mp3)$/, 
+                loader: 'file'
             }
         ]
     }

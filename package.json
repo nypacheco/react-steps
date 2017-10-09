@@ -29,12 +29,13 @@
     "babel-preset-react": "6.16.0",
     "babel-preset-stage-0": "6.16.0",
     "classnames": "2.2.5",
-    "css-loader": "0.25.0",
+    "css-loader": "^0.25.0",
+    "file": "^0.2.2",
     "less": "2.7.1",
     "less-loader": "2.2.3",
     "react": "15.3.2",
     "react-dom": "15.3.2",
-    "style-loader": "0.13.1",
+    "style-loader": "^0.13.1",
     "webpack": "1.13.2"
   },
   "readme": "# react-steps\r\nSteps component for react\r\n\r\nDemo : http://jakubzloczewski.github.io/react-steps/\r\n\r\n## Instructions\r\n\r\nTo install this module run:\r\n```sh\r\nnpm install react-steps\r\n```\r\n\r\nrequire it inside of your app\r\n```js\r\nvar Steps = require('react-steps');\r\n```\r\n\r\nto compile example with webpack\r\n\r\n```sh\r\nwebpack\r\n```\r\n\r\nTu run example localy just open ./example/index.html in browser\r\n",
@@ -42,5 +43,8 @@
   "gitHead": "58a0c759fc030f1e5bcf58a1b908931a81b9766e",
   "_id": "react-steps@0.0.3-c",
   "_shasum": "8da54945d1c952cab273d0d663f6970c7f26b7e4",
-  "_from": "react-steps@0.0.3-c"
+  "_from": "react-steps@0.0.3-c",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
 }
